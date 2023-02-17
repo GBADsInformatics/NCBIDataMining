@@ -1,0 +1,262 @@
+{
+  "NA": [
+    "NA"
+  ],
+  "breed Bama": [
+    "breed Bama",
+    "breed Silkie"
+  ],
+  "breed Japanese Brown cattle of Kumamoto strain": [
+    "breed Japanese Brown cattle of Kumamoto strain"
+  ],
+  "breed Ross 308": [
+    "breed Ross 308"
+  ],
+  "breed Tibetan pigs": [
+    "breed Aberdeen Angus",
+    "breed Tibetan pigs"
+  ],
+  "breed White Leghorn": [
+    "breed White Leghorn"
+  ],
+  "breed Yorkshire pigs": [
+    "breed Yorkshire pigs"
+  ],
+  "isolate 01 GT15": [
+    "isolate 01 GT05",
+    "isolate 01 GT07",
+    "isolate 01 GT11",
+    "isolate 01 GT12",
+    "isolate 01 GT13",
+    "isolate 01 GT14",
+    "isolate 01 GT15",
+    "isolate 01 GT19",
+    "isolate 02 GT10",
+    "isolate 02 GT11",
+    "isolate 02 GT15",
+    "isolate GD19PS1"
+  ],
+  "isolate 02 GT03": [
+    "isolate 01 GT03",
+    "isolate 01 GT06",
+    "isolate 01 GT08",
+    "isolate 02 GT01",
+    "isolate 02 GT02",
+    "isolate 02 GT03",
+    "isolate 02 GT07",
+    "isolate 02 GT08",
+    "isolate 02 GT09",
+    "isolate 02 GT12",
+    "isolate 02 GT13",
+    "isolate 02 GT14",
+    "isolate 02 GT16"
+  ],
+  "isolate 03 MDA05": [
+    "isolate 03 MDA01",
+    "isolate 03 MDA03",
+    "isolate 03 MDA04",
+    "isolate 03 MDA05",
+    "isolate 03 MDA06",
+    "isolate 03 MDA07",
+    "isolate 03 MDA08",
+    "isolate 03 MDA09",
+    "isolate 03 MDA10",
+    "isolate 03 MDA11",
+    "isolate 03 MDA12",
+    "isolate 03 MDA14",
+    "isolate 03 MDA15",
+    "isolate 07 MDA05",
+    "isolate 07 MDA35"
+  ],
+  "isolate 05 MDA3": [
+    "isolate 03 MDA13",
+    "isolate 04 MDA3",
+    "isolate 04 MDA4",
+    "isolate 05 MDA1",
+    "isolate 05 MDA2",
+    "isolate 05 MDA3",
+    "isolate 05 MDA4",
+    "isolate 05 MDA5",
+    "isolate 06 MDA1",
+    "isolate 06 MDA3",
+    "isolate 06 MDA4",
+    "isolate 07 MDA30",
+    "isolate 07 MDA32"
+  ],
+  "isolate 07 MDA27": [
+    "isolate 04 MDA7",
+    "isolate 06 MDA18",
+    "isolate 06 MDA21",
+    "isolate 06 MDA22",
+    "isolate 06 MDA24",
+    "isolate 06 MDA26",
+    "isolate 06 MDA27",
+    "isolate 06 MDA28",
+    "isolate 07 MDA07",
+    "isolate 07 MDA09",
+    "isolate 07 MDA15",
+    "isolate 07 MDA17",
+    "isolate 07 MDA18",
+    "isolate 07 MDA20",
+    "isolate 07 MDA23",
+    "isolate 07 MDA27",
+    "isolate 07 MDA33"
+  ],
+  "isolate 16s": [
+    "isolate 16s"
+  ],
+  "isolate 22CA01CB07UCD S1": [
+    "isolate 22CA01CB02UCD S1",
+    "isolate 22CA01CB06UCD S1",
+    "isolate 22CA01CB07UCD S1",
+    "isolate 22CA03CB07UCD EC",
+    "isolate 22CA03CB08UCD EC"
+  ],
+  "isolate transcriptome breed White Leghorn": [
+    "isolate transcriptome breed Silky Fowl",
+    "isolate transcriptome breed White Leghorn",
+    "strain Bos indicus Pure isolate Malnad Gidda 1 breed Malnad Gidda1 cultivar Malnad gidda 1 ecotype India",
+    "strain Bos indicus Pure isolate Malnad Gidda 2 breed Malnad Gidda2 cultivar Malnad gidda 1 ecotype India",
+    "strain Bos indicus Pure isolate Malnad Gidda 3 breed Malnad Gidda3 cultivar Malnad gidda 1 ecotype India"
+  ],
+  "strain 22SC05CB02 EC": [
+    "strain 22SC05CB02 EC",
+    "strain PNUSAC028403"
+  ],
+  "strain BL E breed Brown Leghorn": [
+    "strain BL E breed Brown Leghorn",
+    "strain Bos taurus KF isolate Cross bred 1 breed HF Cross 1 cultivar Cross bred ecotype India",
+    "strain Bos taurus KF isolate Cross bred 2 breed HF Cross 2 cultivar Cross bred ecotype India"
+  ],
+  "strain D1": [
+    "strain D1",
+    "strain D11",
+    "strain D14",
+    "strain D15",
+    "strain D2",
+    "strain D3",
+    "strain D4",
+    "strain D5",
+    "strain D6",
+    "strain D8",
+    "strain D9",
+    "strain Q10",
+    "strain Q14"
+  ],
+  "strain Garut crossbreed": [
+    "strain Bos taurus KF isolate Cross bred 3 breed HF Cross 3 cultivar Cross bred ecotype India",
+    "strain Garut crossbreed"
+  ],
+  "strain Hu Lamb": [
+    "strain Hu Lamb",
+    "strain bacteria"
+  ],
+  "strain KU Poultry 13 Ecoli": [
+    "strain KU Poultry 13 Ecoli"
+  ],
+  "strain Klebsiella pneumoniae Y7 3": [
+    "strain Klebsiella pneumoniae Y7 3"
+  ],
+  "strain N1": [
+    "strain N1",
+    "strain N10",
+    "strain N12",
+    "strain N13",
+    "strain N14",
+    "strain N16",
+    "strain N17",
+    "strain N18",
+    "strain N19",
+    "strain N2",
+    "strain N20",
+    "strain N23",
+    "strain N24",
+    "strain N25",
+    "strain N3",
+    "strain N4",
+    "strain N5",
+    "strain N6",
+    "strain N7",
+    "strain N8",
+    "strain N9",
+    "strain PNUSAS276419",
+    "strain PNUSAS276420",
+    "strain PNUSAS276421",
+    "strain PNUSAS276423",
+    "strain PNUSAS276424",
+    "strain Q",
+    "strain Q18",
+    "strain Q19",
+    "strain X1",
+    "strain X12",
+    "strain X4",
+    "strain X6",
+    "strain X8",
+    "strain X9"
+  ],
+  "strain Q31": [
+    "strain BB3 R1",
+    "strain Q11",
+    "strain Q15",
+    "strain Q16",
+    "strain Q20",
+    "strain Q21",
+    "strain Q23",
+    "strain Q27",
+    "strain Q28",
+    "strain Q29",
+    "strain Q30",
+    "strain Q31",
+    "strain Q33",
+    "strain Q34",
+    "strain Q35",
+    "strain Q36",
+    "strain R32 14 1F",
+    "strain X3"
+  ],
+  "strain SD2017LLA148": [
+    "strain PNUSAC028408",
+    "strain SD2017LLA108",
+    "strain SD2017LLA110",
+    "strain SD2017LLA114",
+    "strain SD2017LLA118",
+    "strain SD2017LLA128",
+    "strain SD2017LLA129",
+    "strain SD2017LLA140",
+    "strain SD2017LLA141",
+    "strain SD2017LLA142",
+    "strain SD2017LLA143",
+    "strain SD2017LLA146",
+    "strain SD2017LLA148",
+    "strain SD2017LLA158",
+    "strain SD2017LLA161",
+    "strain SD2017LLA168",
+    "strain SD2017LLA169",
+    "strain SD2017LLA177",
+    "strain SD2017LLA206",
+    "strain SD2017LLA383",
+    "strain SD2017LLA69",
+    "strain SD2017LLA78",
+    "strain SD2017LLA81",
+    "strain SD2017LLA89",
+    "strain SD2018LL316"
+  ],
+  "strain SD2017LLB187": [
+    "strain PNUSAC028407",
+    "strain SD2016WS1154",
+    "strain SD2017LLA117",
+    "strain SD2017LLA137",
+    "strain SD2017LLA77",
+    "strain SD2017LLB017",
+    "strain SD2017LLB092",
+    "strain SD2017LLB094",
+    "strain SD2017LLB095",
+    "strain SD2017LLB136",
+    "strain SD2017LLB181",
+    "strain SD2017LLB185",
+    "strain SD2017LLB187",
+    "strain SD2017LLB202",
+    "strain SD2017LLB218",
+    "strain SD2017LLB226"
+  ]
+}

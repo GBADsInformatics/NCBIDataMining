@@ -56,6 +56,7 @@ class StringClusters:
     # takes a collection of plain text tokens and computes pairwise similarity between all tokens
     def get_similarity_weights(self, all_tokens):
         vectors = self.get_vectors(all_tokens).values()
+        array = np.array([[t1.similarity(t2) for t1 in vectors] for t2 in vectors])
         return np.array([[t1.similarity(t2) for t1 in vectors] for t2 in vectors])
 
     # takes a plain text token and computes its similarity with the plain text tokens in the given collection of tokens
@@ -69,6 +70,7 @@ class StringClusters:
         for input_token in vectors:
             vec = vectors[input_token]
             similarity_weights[input_token] = vec_token.similarity(vec)  # compute similarity between tokens
+            # print(similarity_weights)
 
         # get a dictionary where the above vectors are sorted in descending order of similarity
         sorted_similarity_weights = sorted(similarity_weights.items(), key=operator.itemgetter(1), reverse=True)
@@ -78,6 +80,7 @@ class StringClusters:
     def get_vectors(self, tokens):
         vectors = dict()
         for token in tokens:
+            # print(token)
             vectors[token] = self.get_vector(token)
         return vectors
 
@@ -91,6 +94,7 @@ class StringClusters:
             return self.vectors[token]
 
     # normalize a given set of string tokens
+    #works
     def normalize_tokens(self, tokens):
         normalized_tokens = list()
         for token in tokens:
@@ -105,11 +109,14 @@ class StringClusters:
     # cluster the given tokens according to their similarity distances. returns a dictionary that maps each cluster
     # exemplar to an array of cluster elements that the exemplar represents
     def cluster(self, distances, tokens):
-        self.ap.fit(distances)
+        # print(distances.dtype)
+        distances = distances.astype(np.float32)
+        clusterer = sklearn.cluster.AffinityPropagation(affinity="precomputed", damping=0.9)
+        result = clusterer.fit(distances)
         clusters = dict()
-        for cluster_id in np.unique(self.ap.labels_):
-            exemplar = tokens[self.ap.cluster_centers_indices_[cluster_id]]
-            cluster = np.unique(tokens[np.nonzero(self.ap.labels_ == cluster_id)])
+        for cluster_id in np.unique(result.labels_):
+            exemplar = tokens[result.cluster_centers_indices_[cluster_id]]
+            cluster = np.unique(tokens[np.nonzero(result.labels_ == cluster_id)])
             clusters[exemplar] = cluster.tolist()
         return clusters
 
@@ -120,6 +127,7 @@ class StringClusters:
             distance_weights = self.get_edit_distances(tokens)
         elif distance_metric == Distance.EUCLIDEAN:
             distance_weights = self.get_similarity_weights(tokens)
+            # print(distance_weights)
         else:
             raise ValueError("Unknown distance metric input: '" + distance_metric + "'. Supported values are: " +
                              str([distance.value for distance in Distance]))
